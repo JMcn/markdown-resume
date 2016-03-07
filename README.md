@@ -1,3 +1,11 @@
+## 先安装[wkhtmltopdf][wkhtmltopdf]
+## 再执行下面的生成pdf或html，样式是`swissen`，css的目录在`templates\swissen`
+```
+./bin/md2resume pdf --template swissen examples/source/laizhuoming.md examples/output/
+
+./bin/md2resume html --template swissen examples/source/laizhuoming.md examples/output/
+```
+
 # Markdown Resume Generator [![Build Status](https://travis-ci.org/there4/markdown-resume.png?branch=master)](https://travis-ci.org/there4/markdown-resume)
 > Convert markdown to HTML and PDF resumes
 
